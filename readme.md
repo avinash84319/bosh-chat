@@ -27,7 +27,6 @@ poetry install
 
 ```
 
-<<<<<<< HEAD
 For unstructered data:
 ```
 sudo apt-get install poppler-utils
@@ -41,9 +40,6 @@ make sure you restart the terminal after installing these dependencies.
 
 
 To run qdrant make sure you have docker installed and run the following commands:
-=======
-To run qdrant make sure you have docker installed and run the following commands in `linux`:
->>>>>>> 691c55bb074bc4f30721135f0ef37675577c457a
 ```
 docker pull qdrant/qdrant
 docker run -p 6333:6333 -p 6334:6334 \-v $(pwd)/qdrant_storage:/qdrant/storage:z \qdrant/qdrant
